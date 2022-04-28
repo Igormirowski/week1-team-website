@@ -1,0 +1,34 @@
+body  {
+    background-color: grey;
+    align-content: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px;
+    padding: 15px;
+  }
+td {
+    text-align: center;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+tr:hover {background-color: coral;}
+
+
+table, th, td {
+    border:1px solid black;
+  }
+
+  .browser {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  
+ .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+ }
